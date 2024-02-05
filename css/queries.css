@@ -1,0 +1,1344 @@
+/*************** RESPONSIVE DESING *************/
+@media screen and (max-width: 2560px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.6rem;
+  }
+  .main-nav-link {
+    font-size: 1.4rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .main-nav-link.nav-cta:hover,
+  .main-nav-link.nav-cta:active {
+    background-color: #fad400;
+    transition: all 0.1s;
+    color: #23303e;
+    border: transparent;
+  }
+  .banner {
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+  .arrow {
+    height: 90px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2.4rem;
+  }
+
+  .container p {
+    font-size: 2rem;
+  }
+  .grid-item-1 {
+    padding: 23rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 25rem 12rem 25rem;
+  }
+  .heading-sec-1 {
+    font-size: 3.6rem;
+  }
+  .heading-sec-2 {
+    font-size: 2.4rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 25rem 12rem 25rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 17.6rem;
+    gap: 15.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.6rem;
+  }
+  .main-nav-link {
+    font-size: 1.6rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .main-nav-link.nav-cta:hover,
+  .main-nav-link.nav-cta:active {
+    background-color: #fad400;
+    transition: all 0.1s;
+    color: #23303e;
+    border: transparent;
+  }
+  .banner {
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+  .arrow {
+    height: 90px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2.4rem;
+  }
+
+  .container p {
+    font-size: 1.8rem;
+  }
+  .grid-item-1 {
+    padding: 18rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 22rem 8rem 22rem;
+  }
+  .heading-sec-1 {
+    font-size: 3.6rem;
+  }
+  .heading-sec-2 {
+    font-size: 2.4rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 25rem 8rem 25rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 17.6rem;
+    gap: 15.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.8rem;
+  }
+  .icon-link {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.4rem;
+  }
+  .main-nav-link {
+    font-size: 1.4rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .banner {
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+  .arrow {
+    height: 84px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 4.2rem;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+
+  .container p {
+    font-size: 1.6rem;
+  }
+  .grid-item-1 {
+    padding: 16rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 19rem 9rem 19rem;
+  }
+  .heading-sec-1 {
+    font-size: 3.2rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 19rem 9rem 19rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 17.6rem;
+    gap: 15.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 1344px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.4rem;
+  }
+  .main-nav-link {
+    font-size: 1.4rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .banner {
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+  .arrow {
+    height: 84px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 4.2rem;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+  .icon-mobile-nav {
+    width: 44px;
+    height: 44px;
+  }
+
+  .container p {
+    font-size: 1.4rem;
+  }
+  .grid-item-1 {
+    padding: 16rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 19rem 7rem 19rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.8rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 19rem 7rem 19rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 14.6rem;
+    gap: 14.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.4rem;
+  }
+  .main-nav-link {
+    font-size: 1.4rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .banner {
+    height: 90vh;
+    min-height: 600px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+  .arrow {
+    height: 84px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 4.2rem;
+    text-align: center;
+    margin-bottom: 9rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+
+  .container p {
+    font-size: 1.4rem;
+  }
+  .grid-item-1 {
+    padding: 12rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 15rem 6rem 15rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.6rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 15rem 6rem 15rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 10.6rem;
+    gap: 11.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 2.8rem;
+  }
+  .logo {
+    height: 2.2rem;
+  }
+  .main-nav-link {
+    font-size: 1.4rem;
+  }
+  .main-nav-link.nav-cta:link,
+  .main-nav-link.nav-cta:visited {
+    padding: 1.6rem 2.2rem;
+    border-radius: 28px;
+    color: #23303e;
+    background-color: #fff;
+    font-size: 1.2rem;
+  }
+  .banner {
+    height: 80vh;
+    min-height: 600px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.5;
+  }
+  .arrow {
+    height: 84px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+  .container p {
+    font-size: 1.3rem;
+  }
+  .grid-item-1 {
+    padding: 9rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 12rem 4rem 12rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.4rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 12rem 4rem 12rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 9.6rem;
+    gap: 4.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.8rem;
+  }
+  .logo-color {
+    height: 2.2rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 1.8rem;
+  }
+  .logo {
+    height: 2.8rem;
+  }
+
+  .banner {
+    height: 90vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.7;
+  }
+  .arrow {
+    height: 110px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 4.3rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+  .icon-mobile-nav {
+    width: 44px;
+    height: 44px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+  .container p {
+    font-size: 1.4rem;
+  }
+  .grid-item-1 {
+    text-align: center;
+    padding: 7rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 7rem 4rem 7rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.4rem;
+    padding: 0 3rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 7rem 4rem 7rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 3.6rem;
+    gap: 4.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav {
+    background-color: hsla(200, 100%, 62%, 0.304);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .logo-color {
+    height: 2.8rem;
+  }
+  .link-p {
+    font-size: 1.8rem;
+  }
+  .icon-link {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 1.8rem;
+  }
+  .logo {
+    height: 2.8rem;
+  }
+
+  .banner {
+    height: 80vh;
+    min-height: 700px;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.7;
+  }
+  .arrow {
+    height: 110px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 4.3rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+  .icon-mobile-nav {
+    width: 42px;
+    height: 42px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+  }
+  .container p {
+    font-size: 1.4rem;
+  }
+  .grid-item-1 {
+    text-align: center;
+    padding: 5rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 3rem 4rem 3rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.2rem;
+    padding: 0 3rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 3rem 4rem 3rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 2.6rem;
+    gap: 4.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav {
+    background-color: hsla(200, 100%, 62%, 0.304);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .logo-color {
+    height: 2.8rem;
+  }
+  .link-p {
+    font-size: 1.8rem;
+  }
+  .icon-link {
+    width: 22px;
+    height: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 1.8rem;
+  }
+  .logo {
+    height: 2.6rem;
+  }
+
+  .banner {
+    height: 70vh;
+    min-height: 700px;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.9;
+  }
+  .arrow {
+    height: 100px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 4.3rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    padding: 0rem 4rem 0 4rem;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+  .icon-mobile-nav {
+    width: 42px;
+    height: 42px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container p {
+    font-size: 1.6rem;
+  }
+  .grid-item-1 {
+    text-align: center;
+    padding: 11rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 26rem 12rem 4rem 12rem;
+  }
+  .heading-sec-1 {
+    font-size: 3.2rem;
+    padding: 0 3rem;
+  }
+  .heading-sec-2 {
+    font-size: 2.4rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 26rem 12rem 4rem 12rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 12.6rem;
+    gap: 8.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item-img:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav {
+    background-color: hsla(200, 100%, 62%, 0.304);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .logo-color {
+    height: 2.6rem;
+  }
+  .link-p {
+    font-size: 1.8rem;
+  }
+  .icon-link {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 1.8rem;
+  }
+  .logo {
+    height: 2.4rem;
+  }
+
+  .banner {
+    height: 60vh;
+    min-height: 600px;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.9;
+  }
+  .arrow {
+    height: 90px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-size: 4.3rem;
+    text-align: center;
+    margin-bottom: 7rem;
+    padding: 0;
+  }
+
+  .heading-sec-2 {
+    font-size: 2rem;
+  }
+  .icon-mobile-nav {
+    width: 38px;
+    height: 38px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container p {
+    font-size: 1.4rem;
+  }
+  .grid-item-1 {
+    text-align: center;
+    padding: 7rem;
+  }
+  .grid-item-2 {
+    background-size: cover;
+    padding: 20rem 9rem 4rem 9rem;
+  }
+  .heading-sec-1 {
+    font-size: 2.8rem;
+    padding: 0 3rem;
+  }
+  .heading-sec-2 {
+    font-size: 1.8rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 20rem 9rem 4rem 9rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 9.6rem;
+    gap: 5.6rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.6rem;
+  }
+  .testimonial-text {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.4rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item-img:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav {
+    background-color: hsla(200, 100%, 62%, 0.304);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 73.5vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .logo-color {
+    height: 2.4rem;
+  }
+  .link-p {
+    font-size: 1.6rem;
+  }
+  .icon-link {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-logo {
+    height: 8.6rem;
+    padding: 0 1.8rem;
+  }
+  .logo {
+    height: 2.2rem;
+  }
+  .icon-mobile-nav {
+    width: 36px;
+    height: 36px;
+  }
+  .banner {
+    height: 57vh;
+    min-height: 450px;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main {
+    flex-grow: 0.6;
+  }
+
+  .arrow {
+    height: 90px;
+  }
+  .heading-primary {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 3.4rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 0;
+  }
+  .heading-sec-1 {
+    padding: 0;
+  }
+  .heading-sec-2 {
+    font-size: 1.4rem;
+  }
+
+  .icon-mobile-nav {
+    width: 36px;
+    height: 36px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container p {
+    font-size: 1.2rem;
+  }
+  .grid-item-1 {
+    text-align: center;
+    padding: 4.2rem;
+  }
+  .grid-item-2 {
+    padding: 18rem 3rem 4rem 3rem;
+  }
+  .grid-item-3 {
+    background-size: cover;
+    padding: 18rem 3rem 4rem 3rem;
+  }
+  .heading-testimonials-1 {
+    font-size: 1.4rem;
+  }
+  .testimonials-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2.8rem;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .position span {
+    font-size: 1.2rem;
+  }
+  .position p {
+    font-weight: 600;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item-img:nth-child(2) {
+    grid-row: 1;
+  }
+  .main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+  .main-nav {
+    background-color: hsla(200, 100%, 62%, 0.304);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 57vh;
+    transform: translateX(100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .logo-color {
+    height: 2.2rem;
+  }
+
+  .link-p {
+    font-size: 1.4rem;
+  }
+  .icon-link {
+    width: 16px;
+    height: 16px;
+  }
+}
